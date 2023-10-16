@@ -1,8 +1,8 @@
 ///////////////////////////////////////////////////////////////////////////
                                Reflection
                              Workshop - #6
-Full Name  : 
-Student ID#: 
+Full Name  : Renato Cordova
+Student ID#: 153325238
 
 Authenticity Declaration:
 I declare this submission is the result of my own work and has not been
@@ -10,3 +10,8 @@ shared with any other student or 3rd party content provider. This submitted
 piece of work is entirely of my own creation.
 ///////////////////////////////////////////////////////////////////////////
 
+Q1. We use three types of iteration constructs because each one excels at a specific task. In this workshop we use "do/while" to iterate a question until the input of the user is valid; we use "for" to iterate through an array and print different things based on the current index; lastly we use "switch" to execute different code blocks depending on what the user input was. When working with arrays, the "for" loop is favoured as we can iterate through each index and check if they meet certain conditions, or use the element stored in the index, etc. 
+
+Q2. To test the program i'd constantly run it to make sure the output matched the rubric, which allowed me to catch errors as I was developing the program and make it easy to fix such errors. For debugging I'd read the warnings my IDE would give me when I compiled my program, and I'd use the line reference given in the warning to go back to that line and check what was wrong and fix anything if I had to do so. Usually for syntactic errors you'll get a warning as you write the code in the form of a red highlight, but for semantic errors I'd see errors when testing the program and finding infinite loops that I didn't realize I had. 
+
+Q3. First I would open up the source code again, then Id go to the line responsible for the output where the error was found and check if there is a problem. In this case, the error seems to be caused by the user entering the wrong input (0 instead of 567.89) so I would run the code again and input the right value this time and check if the outputs match when submitting my work. 
