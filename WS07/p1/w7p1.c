@@ -93,7 +93,7 @@ int main(void)
 
         if(game.maxNumMoves < MIN_MOVES || game.maxNumMoves > MAX_MOVES){
             valid = 0;
-            printf("     Value must be between %d and %d\n", MIN_MOVES, MAX_MOVES);
+            printf("    Value must be between %d and %d\n", MIN_MOVES, MAX_MOVES);
         }
     } while (!valid);
 
@@ -106,7 +106,7 @@ int main(void)
     printf("(Example: 1 0 0 1 1) NOTE: there are %d to set!\n", game.pathLength);
 
     for(i = 0; i < game.pathLength; i += 5){
-        printf("  Positions [%2d-%2d]: ", i + 1, i + 5);
+        printf("   Positions [%2d-%2d]: ", i + 1, i + 5);
         scanf("%d %d %d %d %d", &game.bombs[i], &game.bombs[i + 1], &game.bombs[i + 2], &game.bombs[i + 3], &game.bombs[i + 4]);
     }
 
@@ -121,7 +121,7 @@ int main(void)
     printf("(Example: 1 0 0 1 1) NOTE: there are %d to set!\n", game.pathLength);
 
     for(i = 0; i < game.pathLength; i += 5){
-        printf("  Positions [%2d-%2d]: ", i + 1, i + 5);
+        printf("   Positions [%2d-%2d]: ", i + 1, i + 5);
         scanf("%d %d %d %d %d", &game.treasure[i], &game.treasure[i + 1], &game.treasure[i + 2], &game.treasure[i + 3], &game.treasure[i + 4]);
     }
 
