@@ -152,7 +152,7 @@ int main(void)
                 printf("NOTE: Financing options are available on some items.\n");
                 printf("      You can likely reduce the estimated months.\n");
             }
-            printf("====================================================\n\n");
+            printf("====================================================\n");
             break;
         case 2:
             valid = 0;
@@ -182,7 +182,7 @@ int main(void)
                       printf("NOTE: Financing options are available on some items.\n");
                       printf("      You can likely reduce the estimated months.\n");
                      }
-                     printf("====================================================\n\n");
+                     printf("====================================================\n");
                      priorityTotalCost = 0;
             }
             break;

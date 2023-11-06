@@ -1,8 +1,8 @@
 ///////////////////////////////////////////////////////////////////////////
                                Reflection
                              Workshop - #5
-Full Name  : 
-Student ID#: 
+Full Name  : Renato Cordova
+Student ID#: 153325238
 
 Authenticity Declaration:
 I declare this submission is the result of my own work and has not been
@@ -10,3 +10,14 @@ shared with any other student or 3rd party content provider. This submitted
 piece of work is entirely of my own creation.
 ///////////////////////////////////////////////////////////////////////////
 
+Q1. Using varaibles and macros to represent information makes the code more readable and easier to follow. It also allows us to change 
+the values of these variables in the future without breaking the code or having to edit every instance of that variable. In this workshop 
+using variables like the LOG_MAX allows us to increase the number of days our log can assess, easily switching from 3 days to 30 by simply 
+changing one variable. It also creates better readability, allowing other programmers to read and understand our code in the future. Lastly 
+it helps us store values that are constantly changing, such as the sumM, sumM, and sumALL variables, which are used to store the ratings 
+as they are added for each log. 
+
+Q2. If the logic that sums and performs the average was added in the validation iteration then the code would be a bit harder to 
+understand, its always best practice to have the calculations in one place and have the validation in another so the code is clear and 
+easier to read. Its also better because any calculations wont be done unless the values are already set and follow the required range. 
+This makes our code clear, easier to read, and it allows us to change or range and number of iterations easily without breaking anything.

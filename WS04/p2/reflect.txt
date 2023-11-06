@@ -1,8 +1,8 @@
 ///////////////////////////////////////////////////////////////////////////
                                Reflection
                              Workshop - #4
-Full Name  : 
-Student ID#: 
+Full Name  : Renato Cordova
+Student ID#: 153325238
 
 Authenticity Declaration:
 I declare this submission is the result of my own work and has not been
@@ -10,3 +10,15 @@ shared with any other student or 3rd party content provider. This submitted
 piece of work is entirely of my own creation.
 ///////////////////////////////////////////////////////////////////////////
 
+Q1. I added some comments to aid others programmers understand my code. The code itself 
+is very straight forward and easy to follow which follow proper naming conventions and 
+are formatted correctly.
+
+Q2. If nesting were not possible the code for this workshop would be much longer and 
+harder to understand. It would be possible to do this workshop without nesting but it 
+would require much more time and planning to do so effectively.
+
+Q3. When using if statements only the programm will have to go through each possible if 
+statement even if one was already executed, this would be a big waste of resourses. When 
+using if/else the programm will only execute the needed statement and break out, making 
+the programm more efficient. 

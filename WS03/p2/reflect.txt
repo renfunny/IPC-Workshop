@@ -1,10 +1,10 @@
 ///////////////////////////////////////////////////////////////////////////
                               Reflection
                           Workshop - #3 (P2)
-Full Name  : 
-Student ID#: 
-Email      : 
-Section    : 
+Full Name  : Renato Cordova
+Student ID#: 153325238
+Email      : rcordova3@myseneca.ca
+Section    : NDD
 
 Authenticity Declaration:
 I declare this submission is the result of my own work and has not been
@@ -12,3 +12,28 @@ shared with any other student or 3rd party content provider. This submitted
 piece of work is entirely of my own creation.
 ///////////////////////////////////////////////////////////////////////////
 
+Q1. 
+	dailyServings >= 1 && dailyServings <= 4
+	dailyServings >= 5 && dailyServings <= 9
+	dailyServings >= 10
+A) There were 2 relational expressions used; more or equal to (>=), and less or equal to (<=)
+B) There was 1 logical expression used, AND (&&)
+
+Q2.
+	PRODUCT3_ID != PRODUCT1_ID && PRODUCT3_ID != PRODUCT2_ID
+	!(PRODUCT3_ID == PRODUCT1_ID || PRODUCT3_ID == PRODUCT2_ID)
+
+Q3. Here we organize the variables based on their types:
+  
+	const double GRAMS_IN_LBS = 453.5924;
+    	int coffeeWeight1, coffeeWeight2, coffeeWeight3, dailyServings;
+   	char coffeeType1, coffeeType2, coffeeType3, creamSuggested1, creamSuggested2, creamSuggested3, coffeeStrength, withCream;
+
+Here we organize the variables based on their relationship (information about coffee being sold and then how the customer likes his coffee), prioritizing constant variables:
+
+	const double GRAMS_IN_LBS = 453.5924;
+	char coffeeType1, coffeeType2, coffeeType3, creamSuggested1, creamSuggested2, creamSuggested3;
+	int coffeeWeight1, coffeeWeight2, coffeeWeight3;
+	char coffeeStrength, withCream;
+	int dailyServings;
+	
