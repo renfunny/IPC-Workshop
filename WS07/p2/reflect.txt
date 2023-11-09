@@ -1,11 +1,31 @@
 ///////////////////////////////////////////////////////////////////////////
                                Reflection
                              Workshop - #7
-Full Name  : 
-Student ID#: 
+Full Name  : Renato Cordova
+Student ID#: 153325238
 
 Authenticity Declaration:
 I declare this submission is the result of my own work and has not been
 shared with any other student or 3rd party content provider. This submitted
 piece of work is entirely of my own creation.
 ///////////////////////////////////////////////////////////////////////////
+
+Q1. For the most part I was able to use a for loop for the position of the player on the board, the game path, both 
+the major and minor position rulers and the player's statistics. All of these are inside a do/while loop so they will be 
+re-used until the program breaks from the do/while loop (this happens when the player runs out of lives or moves). I had 
+to then repeat all of this code outside of the do/while loop to show the player their last move once they ran out of 
+lives/moves. 
+
+Q2. Using structures allowed me to have variables of different types that were related to each other in one place. 
+This makes it easier to understand what these variables do and where they belong. For example, all the variables relating 
+to the player were found within the PlayerInfo structure, variables like lives, the symbol of the player, the number of 
+treasure found, and the positions the player visited during the game. This creates code that is much easier to understand.
+
+Q3. My deepest level of nesting was 3:
+do{
+	for(){
+		if( ){
+		
+		} else { }
+	}
+} while ( )
